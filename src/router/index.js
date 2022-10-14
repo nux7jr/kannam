@@ -5,9 +5,10 @@ import ProfileView from '@/views/ProfileView.vue'
 import ExaminationInfoView from "@/views/ExaminationInfoView.vue"
 import KannamprototypeMyHecks from "@/views/MyСhecks.vue"
 import QuestionList from "@/views/QuestionList.vue"
-// import ProfileView from '@/views/ProfileView.vue'
-// import ProfileView from '@/views/ProfileView.vue'
-// import ProfileView from '@/views/ProfileView.vue'
+import Notifications from "@/views/Notifications.vue"
+import UserList from "@/views/UserList.vue"
+import EstablishmentsList from "@/views/EstablishmentsList.vue"
+import InstitutionsView from '@/views/InstitutionsView.vue'
 
 
 Vue.use(VueRouter)
@@ -38,7 +39,31 @@ const routes = [
     name: 'QuestionList',
     component: QuestionList
   },
+  {
+    path: '/notifications',
+    name: 'Notifications',
+    component: Notifications
+  },
+  {
+    path: '/userList',
+    name: 'UserList',
+    component: UserList
+  },
+  {
+    path: '/establishmentsList',
+    name: 'EstablishmentsList',
+    component: EstablishmentsList
+  },
+  {
+    path: '/institutionsView',
+    name: 'InstitutionsView',
+    component: InstitutionsView
+  },
+  //InstitutionsView
+  // EstablishmentsList
+  // UserList
   // QuestionList.vue
+  // Notifications
   {
     path: '/about',
     name: 'about',

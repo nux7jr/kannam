@@ -5,14 +5,15 @@
       <p class="heading__text">Выбери заведение, тип проверки и удобную дату. Ты можешь выбрать только одну проверку.</p>
     </div>
     <div class="adress">
-      <router-link to="/examination-info">
         <div class="adress__info">
           <p class="adress__text">Выбранный адрес</p>
           <h3>Красноярск, ул. Молокова, 1 стр. 1</h3>
         </div>
-      </router-link>
       <div class="adress__accessible">
-        <p class="adress__accessible-text">Доступных проверок нет</p>
+        <p class="adress__accessible-text">Доступных проверок: 1</p>
+        <router-link to="/examination-info">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </router-link>
       </div>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, illum obcaecati voluptate nisi quae beatae nobis, sapiente distinctio mollitia at iusto minus eum hic possimus voluptatum perspiciatis, laboriosam maxime neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eveniet, aperiam sit voluptates fugiat provident commodi recusandae eum soluta? Necessitatibus cumque, fugit tempore quo sit reprehenderit! Consequuntur hic quam iure?</p>
     </div>

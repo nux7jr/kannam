@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="examinationInfo">
-      <h3>
+      <h2>
         Информация о проверке
-      </h3>
+      </h2>
       <button class="gobackBtn" @click="goBack()">X</button>
     </div>
     <div class="section__info">
@@ -93,7 +93,7 @@ export default {
   background-position: center center;
   background-size: 50% 50%;
 }
-h3 {
+h2 {
   margin: 15px;
 }
 .examinationInfo {
@@ -101,7 +101,10 @@ h3 {
   justify-content: space-between;
 }
 .gobackBtn {
-  height: 30px;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(255, 252, 252);
+  border: none;
   align-self: center;
   margin-right: 10px;
 }

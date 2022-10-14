@@ -1,6 +1,10 @@
 <template>
   <div class="profile">
-    <h2>Profile</h2>
+    <div class="porf__wrapper">
+      <h2>Profile</h2>
+      <button class="gobackBtn" @click="goBack()">X</button>
+    </div>
+
     <div class="profile__form">
       <small>Фимилия и Имя</small>
       <input class="input_form" type="text">
@@ -33,7 +37,9 @@ export default {
   },
 
   methods: {
-    
+    goBack() {
+        this.$router.go(-1)
+      }
   },
 };
 </script>
@@ -56,5 +62,17 @@ h2 {
   margin: 15px;
   margin-bottom: 60px;
   border-radius: 5px;
+}
+.gobackBtn {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(255, 252, 252);
+  border: none;
+  align-self: center;
+  margin-right: 10px;
+}
+.porf__wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 </style>
