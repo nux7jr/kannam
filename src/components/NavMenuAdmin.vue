@@ -24,7 +24,7 @@
               <router-link class="user__menu-link" to="/userList">Пользователи</router-link>
             </li>
             <li>
-              <router-link class="user__menu-link" to="/institutionsView">Заведения</router-link>
+              <router-link class="user__menu-link" to="/establishmentsList">Заведения</router-link>
             </li>
             <li>
               <router-link class="user__menu-link" to="/institutionsView">Проверки</router-link>
