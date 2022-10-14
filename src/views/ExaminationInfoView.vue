@@ -33,6 +33,7 @@
         <label for="happy">Happy</label>
       </div>
     </div>
+    <button class="enter_exam">Принять задание</button>
   </div>
 </template>
 
@@ -62,7 +63,6 @@ export default {
 
 .input_option {
   margin: 15px;
-  margin-bottom: 60px;
 }
 .custom-checkbox {
   position: absolute;
@@ -109,5 +109,12 @@ h3 {
   background-color: aliceblue;
   padding: 10px;
   border-radius: 5px;
+}
+.enter_exam {
+  border-color: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 60px;
+  margin-left: 15px;
 }
 </style>

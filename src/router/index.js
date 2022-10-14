@@ -2,11 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import ProfileView from '@/views/ProfileView.vue'
-// import ProfileView from '@/views/ProfileView.vue'
 import ExaminationInfoView from "@/views/ExaminationInfoView.vue"
-
-// import ProfileView from '@/views/ProfileView.vue'
-// import ProfileView from '@/views/ProfileView.vue'
+import KannamprototypeMyHecks from "@/views/MyСhecks.vue"
+import QuestionList from "@/views/QuestionList.vue"
 // import ProfileView from '@/views/ProfileView.vue'
 // import ProfileView from '@/views/ProfileView.vue'
 // import ProfileView from '@/views/ProfileView.vue'
@@ -30,6 +28,17 @@ const routes = [
     name: 'ExaminationInfoView',
     component: ExaminationInfoView
   },
+  {
+    path: '/myChecks',
+    name: 'KannamprototypeMyHecks',
+    component: KannamprototypeMyHecks
+  },
+  {
+    path: '/questionList',
+    name: 'QuestionList',
+    component: QuestionList
+  },
+  // QuestionList.vue
   {
     path: '/about',
     name: 'about',

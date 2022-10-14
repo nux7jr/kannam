@@ -31,13 +31,13 @@
               <router-link class="user__menu-link" to="/">Запись на проверку</router-link>
             </li>
             <li>
-              <router-link class="user__menu-link" to="/">Мои проверки</router-link>
+              <router-link class="user__menu-link" to="/myChecks">Мои проверки</router-link>
             </li>
             <li>
-              <router-link class="user__menu-link" to="/">Частые вопросы</router-link>
+              <router-link class="user__menu-link" to="/questionList">Частые вопросы</router-link>
             </li>
             <li>
-              <router-link class="user__menu-link" to="/">Профиль</router-link>
+              <router-link class="user__menu-link" to="/profile">Профиль</router-link>
             </li>
           </ul>
           <button class="exitBtn">Выход</button>
