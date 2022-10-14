@@ -2,6 +2,14 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import ProfileView from '@/views/ProfileView.vue'
+// import ProfileView from '@/views/ProfileView.vue'
+import ExaminationInfoView from "@/views/ExaminationInfoView.vue"
+
+// import ProfileView from '@/views/ProfileView.vue'
+// import ProfileView from '@/views/ProfileView.vue'
+// import ProfileView from '@/views/ProfileView.vue'
+// import ProfileView from '@/views/ProfileView.vue'
+// import ProfileView from '@/views/ProfileView.vue'
 
 
 Vue.use(VueRouter)
@@ -16,6 +24,11 @@ const routes = [
     path: '/profile',
     name: 'profile',
     component: ProfileView
+  },
+  {
+    path: '/examination-info',
+    name: 'ExaminationInfoView',
+    component: ExaminationInfoView
   },
   {
     path: '/about',

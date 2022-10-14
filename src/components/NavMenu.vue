@@ -23,21 +23,24 @@
           close area
         </div>
         <div class="user__menu">
-          <p>LOGO</p>
+          <div class="user__logo">
+            <router-link to="/">LOGO</router-link>
+          </div>
           <ul>
             <li>
-              rou
+              <router-link class="user__menu-link" to="/">Запись на проверку</router-link>
             </li>
             <li>
-              Lorem ipsum dolor sit
+              <router-link class="user__menu-link" to="/">Мои проверки</router-link>
             </li>
             <li>
-              Lorem ipsum dolor sit
+              <router-link class="user__menu-link" to="/">Частые вопросы</router-link>
             </li>
             <li>
-              Lorem ipsum dolor sit
+              <router-link class="user__menu-link" to="/">Профиль</router-link>
             </li>
           </ul>
+          <button class="exitBtn">Выход</button>
         </div>
       </div>
     </div>
@@ -132,7 +135,7 @@ nav a.router-link-exact-active {
   background-color: #3130302a;
 }
 .menu_close {
-  height: calc(100vh - 160px);
+  height: calc(100vh - 284px);
 }
 .user__menu {
   background-color: rgb(233, 236, 240);
@@ -145,5 +148,27 @@ nav a.router-link-exact-active {
   width: 40px;
   height: 16px;
 }
-
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-decoration: none;
+}
+li {
+  margin: 15px;
+}
+a {
+  text-decoration: none;
+}
+.exitBtn {
+  border-radius: 5px;
+  padding: 7px;
+  background-color: #555555;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+.user__logo {
+  margin-left: 15px;
+  padding-top: 15px;
+}
 </style>

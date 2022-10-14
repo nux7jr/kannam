@@ -5,10 +5,12 @@
       <p class="heading__text">Выбери заведение, тип проверки и удобную дату. Ты можешь выбрать только одну проверку.</p>
     </div>
     <div class="adress">
-      <div class="adress__info">
-        <p class="adress__text">Выбранный адрес</p>
-        <h3>Красноярск, ул. Молокова, 1 стр. 1</h3>
-      </div>
+      <router-link to="/examination-info">
+        <div class="adress__info">
+          <p class="adress__text">Выбранный адрес</p>
+          <h3>Красноярск, ул. Молокова, 1 стр. 1</h3>
+        </div>
+      </router-link>
       <div class="adress__accessible">
         <p class="adress__accessible-text">Доступных проверок нет</p>
       </div>
@@ -55,7 +57,6 @@ h3 {
   border-radius: 15px;
   margin: 0 10px;
   padding: 8px;
-  height: calc(100vh - 500px);
 }
 .adress__accessible-text {
   margin: 15px;
